@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en" > 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link href="css/stylesignup.css" type="text/css" rel="stylesheet" media="screen"   />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mathenge Richard">
+    <title>StackOverflow-lite | Login</title>
+    <link rel="stylesheet" href="./css/stylelogin.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100, 200,300,400,500,600,700,
+    800,900|Coromorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico" type="image/gif" sizes="16x16">
+    <script src="main.js"></script>
+
+</head>
+<body>
+        <header>
+                <div class="container">
+                    <div id="menu">
+                        <h2> <img src="./images/logo.png" alt="logo" width="40" height="35"> Stack<span class="highlight ">Overflow-lite</span></h2>
+                    </div>
+            </header>
+       <div class="container">
+  <form action="/home.html">
+    <h1>Login</h1>
+    <hr>
+    <label class="col-75" for="uname"><b>Username</b></label>
+    <input class="col-25" type="text" placeholder="Richard M" name="uname" required>
+
+    <label class="col-75"for="psw"><b>Password</b></label>
+    <input class="col-25" type="password" placeholder="********" name="psw" required>
+        
+    <!-- <button type="submit"><a href="home.html">Login</a></button> -->
+    <a href="home.html"><button>Login</button></a>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <p>
+    <!-- <button type="button" class="backbtn" onclick="home.html">Back</button> -->
+    <a href="home.html"><button class="backbtn">Back</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+</p>
+<hr>
+<p>Don't have an account? <a href="signup.html">Sign-up</a>.</p>
+  </form>
+</div>
+
+</body>
+</html>
